@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Vault</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Resume Vault</h1>
+
+    <form id="resumeForm">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="text" name="designation" placeholder="Designation" required>
+        <label for="resumeFile">Resume File:</label>
+        <input type="file" id="resumeFile" name="resume" title="Upload your resume file" required>
+        <button type="submit">Upload</button>
+    </form>
+
+    <input type="text" id="searchBar" placeholder="Search...">
+
+    <div id="resumeList"></div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

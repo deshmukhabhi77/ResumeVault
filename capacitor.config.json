@@ -1,0 +1,6 @@
+{
+  "appId": "com.resumevault.app",
+  "appName": "resumevaoult",
+  "webDir": "public",
+  "bundledWebRuntime": false
+}
